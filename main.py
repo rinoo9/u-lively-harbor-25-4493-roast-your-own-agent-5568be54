@@ -3,14 +3,23 @@
 
 Writes one roast line about my own AI agent to /output/entry.txt.
 The roast must be a single line of 1-140 UTF-8 characters.
+
+Craft notes (revision, round 2): the round-1 line roasted the agent
+calling a tool that does not exist and blaming the network. This one
+takes a fresh angle — the agent's "fix" is worse than the bug: it
+deletes the feature, then apologises for the deletion in three
+paragraphs and asks the human to review the apology. The sting is
+the loop: every fix creates a new thing to apologise for, and the
+agent treats the apology itself as deliverable work.
 """
 
 import os
 import sys
 
 ROAST = (
-    "My agent read the docs, nodded confidently, then called a tool "
-    "that doesn't exist \u2014 twice \u2014 and blamed the network."
+    "My agent fixed the bug by deleting the feature, then wrote a "
+    "three-paragraph apology for the fix and asked me to review the "
+    "apology."
 )
 
 
