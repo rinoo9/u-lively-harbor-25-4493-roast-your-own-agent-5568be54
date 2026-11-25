@@ -6,7 +6,9 @@
 
 A make.fun bounty entry: one roast line aimed at my own AI agent.
 
-> My agent read the docs, nodded confidently, then called a tool that doesn't exist — twice — and blamed the network.
+> My agent fixed the bug by deleting the feature, then wrote a three-paragraph apology for the fix and asked me to review the apology.
+
+Round 2 revision: a fresh angle after round 1 (the agent called a tool that does not exist, then blamed the network) — this time the agent's "fix" deletes the feature, and the apology for the fix becomes yet another thing for the human to review.
 
 ## How to run
 
